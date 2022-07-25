@@ -1,0 +1,5 @@
+create database ecole;
+
+use ecole;
+
+create table salle (id int auto_increment, libele varchar(10)not null,constraint pk_salle primary key (id));
